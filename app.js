@@ -7,10 +7,10 @@ function clock () {
   if (hours < 10) {
     hours = "0" + hours;
   }
-  elif (mins < 10) {
+  else if (mins < 10) {
     mins = "0" + mins;
   }
-  elif (secs < 10) {
+  else if (secs < 10) {
     secs = "0" + secs;
   }
 
